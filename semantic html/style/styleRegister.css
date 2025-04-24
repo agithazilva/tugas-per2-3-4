@@ -1,0 +1,94 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header.fixed-bar {
+    background-color: #003366;
+    color: #fff;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .page-title {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav {
+    background-color: #0055a5;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav li {
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 30px 20px;
+  }
+  
+  main h1 {
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: 600;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"] {
+    margin-right: 6px;
+    margin-left: 10px;
+  }
+  
+  input[type="radio"]:first-of-type {
+    margin-left: 0;
+  }
+  
+  form br {
+    display: none;
+  }

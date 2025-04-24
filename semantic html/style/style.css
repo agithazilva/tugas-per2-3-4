@@ -1,0 +1,52 @@
+html {
+    background-color: rgb(226, 225, 227);
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.fixed-bar {
+    height: 70px;
+}
+
+.page-title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.trip-text {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.trip-image img {
+    height: 100px;
+}
+
+.trip-text p {
+    background-color: white;
+    margin: 0;
+}
+
+.contact-icon img {
+    height: 15px;
+}
+
+.tagline {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
